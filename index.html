@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Declaração de Amor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card">
+    <img src="dsdd.avif" alt="Coração" class="heart-icon">
+    <h4>Agora você pensa seu homem e foda</h4>
+    <h1>Para o Meu Grande Amor</h1>
+    <p class="love-message">
+     Amor da minha vida razão do meu viver eu amo muito você e quero viver a minha vida inteira com você
+     Eu sou grato por vc ter mudado toda a minha vida e fazer meus dias melhores te amo muito minha vida
+    </p>
+    
+    <div class="arrow-container">
+      <img src="ffff.avif" alt="Seta" class="arrow-icon">
+    </div>
+
+    <button id="openModalBtn" class="btn">Ver A Nossa Foto</button>
+  </div>
+
+  <!-- Janela Modal da Foto -->
+  <div id="photoModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" id="closeModalBtn">&times;</span>
+      <div class="polaroid">
+        <div class="image-container">
+          <img id="coupleImg" src="fofo.jpg" alt="Foto de Casal">
+        </div>
+        <p class="polaroid-caption">Nós os dois 💕</p>
+      </div>
+      <input type="file" id="uploadImg" accept="image/*" style="display: none;">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
